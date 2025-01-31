@@ -1,4 +1,4 @@
-name: Atualizar Snake Animation
+name: Atualizar Snake Animation via SSH
 
 on:
   schedule:
@@ -12,6 +12,13 @@ jobs:
       - name: Clonar o repositório
         uses: actions/checkout@v3
 
+      - name: Configurar SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY2 }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
       - name: Gerar Snake Graph
         uses: Platane/snk@v3
         with:
@@ -20,12 +27,10 @@ jobs:
             github-contribution-grid-snake.svg
             github-contribution-grid-snake-dark.svg
 
-      - name: Commit e push das alterações
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Commit e push das alterações via SSH
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
           git commit -m "Atualizando gráfico de contribuições" || echo "Nada para atualizar"
-          git push https://xpedrotx:${{ secrets.GH_PAT }}@github.com/xpedrotx/xpedrotx.git main
+          GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no" git push git@github.com:xpedrotx/xpedrotx.git main
