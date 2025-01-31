@@ -1,6 +1,6 @@
 # 👨🏻‍💻 Pedro Teixeira
 
-**`Desenvolvedor Web`**
+**`Desenvolvedor front-end`**
 
 Meu nome é Pedro Teixeira, tenho 25 anos, atualmente moro no Oeste do Paraná. Sou apaixonado por tecnologia e estou constantemente em busca de aprendizado e evolução nesse mundo dinâmico que é a programação. Atualmente, estou cursando Engenharia de Software, aprimorando meus conhecimentos para contribuir com a comunidade.
 
