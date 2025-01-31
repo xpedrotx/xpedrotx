@@ -12,17 +12,22 @@ jobs:
       - name: Clonar o repositório
         uses: actions/checkout@v3
 
+      - name: Configurar SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
       - name: Baixar estatísticas do GitHub
         run: |
           curl -o github-stats.png "https://github-readme-stats.vercel.app/api?username=xpedrotx&show_icons=true&theme=transparent&include_all_commits=true&locale=pt-br"
           curl -o github-langs.png "https://github-readme-stats.vercel.app/api/top-langs/?username=xpedrotx&theme=transparent&layout=compact&custom_title=Tecnologias&langs_count=9"
 
       - name: Commit e push das alterações
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md github-stats.png github-langs.png
           git commit -m "Atualizando estatísticas do README" || echo "Nada para atualizar"
-          git push https://xpedrotx:${{ secrets.GH_PAT }}@github.com/xpedrotx/xpedrotx.git main
+          git push git@github.com:xpedrotx/xpedrotx.git main
