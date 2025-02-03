@@ -16,8 +16,8 @@ Meu nome é Pedro Teixeira, tenho 25 anos, atualmente moro no Oeste do Paraná. 
 ### 📊 Estatísticas
 
 <p>
-  <img align="left" alt="GitHub Stats" height="177" style="padding-right: 10px;" src="https://github-readme-stats.vercel.app/api?username=xpedrotx&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br&cache_seconds=1800"/>
-  <img align="left" alt="Linguagens" height="177" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xpedrotx&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9&cache_seconds=1800"/>
+  <img align="left" alt="GitHub Stats" height="177" style="padding-right: 10px;" src="https://github-readme-stats.vercel.app/api?username=xpedrotx&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br&cache_seconds=1700"/>
+  <img align="left" alt="Linguagens" height="177" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xpedrotx&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9&cache_seconds=1700"/>
 </p>
 
 
