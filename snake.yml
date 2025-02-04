@@ -1,0 +1,32 @@
+name: Generate Snake Contribution Grid
+
+on:
+  schedule:
+    - cron: "0 0,12 * * *" 
+  workflow_dispatch: 
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Gerar Snake Grid
+        uses: Platane/snk@v3
+        with:
+          github_user_name: "xpedrotx"
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit e Push da animação
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
