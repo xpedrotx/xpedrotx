@@ -2,8 +2,8 @@ name: Generate Snake Contribution Grid
 
 on:
   schedule:
-    - cron: "0 0,12 * * *" 
-  workflow_dispatch: 
+    - cron: "0 0,12 * * *" # Roda às 00:00 e 12:00 UTC
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -29,4 +29,4 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }} # Usa o token criado
