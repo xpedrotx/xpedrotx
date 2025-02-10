@@ -33,3 +33,4 @@ My name is Pedro Teixeira, I'm 25 years old, and I currently live in the western
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/xpedrotx/xpedrotx/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
+
