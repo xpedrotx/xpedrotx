@@ -1,6 +1,6 @@
 # 👨🏻‍💻 Pedro Teixeira
 
-**`Dev Front-end`**
+**`Dev Front-end.`**
 
 My name is Pedro Teixeira, I'm 25 years old, and I currently live in the western region of Paraná, Brazil. I'm passionate about technology and constantly seeking to learn and evolve in this dynamic world of programming. I'm currently studying Software Engineering, improving my skills to contribute to the community.
 
@@ -33,4 +33,3 @@ My name is Pedro Teixeira, I'm 25 years old, and I currently live in the western
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/xpedrotx/xpedrotx/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
-
