@@ -28,7 +28,7 @@ My name is Pedro Teixeira, I'm 25 years old, and I currently live in the western
 
 ---
 
-## 📊 Estatísticas
+## 📊 Statistics
 <div align="center">
   <img height="177" style="padding-right: 10px;" src="https://github-readme-stats.vercel.app/api?username=xpedrotx&show_icons=true&theme=dracula&random=123456789" alt="Estatísticas do GitHub"/>
   <img height="177" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xpedrotx&theme=dracula&layout=compact" alt="Linguagens mais usadas"/>
