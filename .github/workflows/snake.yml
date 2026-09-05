@@ -22,7 +22,9 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
+            dist/pedrotx-snake.svg?
+            color_snake=%23f8fafc&color_dots=%23171717,%234c1d1d,%237f2b2b,%23b83a3a,%23ef4444
+  
       - name: Commit e Push da animação
         uses: crazy-max/ghaction-github-pages@v3
         with:
