@@ -1,47 +1,94 @@
-# 👨🏻‍💻 Pedro Teixeira
-
-**`Dev Full-stack`**
-
-My name is Pedro Teixeira, I'm 27 years old, and I currently live in the western region of Paraná, Brazil. I'm passionate about technology and constantly seeking to learn and evolve in this dynamic world of programming. I'm currently studying Software Engineering, improving my skills to contribute to the community.
-
----
-
-## 🌍 **Connect with Me**  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedrohltx/)
-[![Email](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:contato@pedrotxdev.com)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://pedrotxdev.com)
-
----
-
-
-
-## 🤖 **Languages ​​and Technologies.**
-<div>
-  <img align="left" alt="GIT" title="GIT" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
-  <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
-  <img align="left" alt="CSS" title="CSS" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
-  <img align="left" alt="JavaScript" title="JavaScript" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
-  <img align="left" alt="PYTHON" title="PYTHON" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
-</div>
-
-<br/><br/>
-
----
-
-## 📊 Statistics
-
-<p align="center">
-  <img height="150" src="https://github-readme-stats-one-bice.vercel.app/api?username=xpedrotx&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
-  <img height="150" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=xpedrotx&layout=compact&theme=dracula&hide_title=true" alt="Linguagens mais usadas" />
-</p>
-
----
-
-## 🐍 **Contributions**
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xpedrotx/xpedrotx/output/github-contribution-grid-snake-dark.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/xpedrotx/xpedrotx/output/github-contribution-grid-snake.svg">
-  </picture>
+
+👨🏻‍💻 Pedro Teixeira
+
+Full-Stack Developer • Software Engineering Student
+
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=520&lines=Full-Stack+Developer;Software+Engineering+Student;Always+learning+and+building"
+alt="Typing SVG"
+/>
+
 </div>
-.
+
+👋 About Me
+
+I'm Pedro Teixeira, a Software Engineering student and Full-Stack Developer from Paraná, Brazil 🇧🇷.
+
+I'm passionate about technology, software development and continuously improving my skills by building real-world solutions.
+
+💻 Languages & Technologies
+
+<div align="center">
+
+<img
+src="https://skillicons.dev/icons?i=ts,js,python,html,css,react,nextjs,nodejs,express,fastapi,tailwind,postgres,supabase,docker,git,github,vscode&theme=dark"
+alt="Languages and Technologies"
+/>
+
+</div>
+
+📊 GitHub Stats
+
+<div align="center">
+
+<img
+width="48%"
+src="https://github-readme-stats-one-bice.vercel.app/api?username=xpedrotx&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github"
+alt="Pedro Teixeira's GitHub Stats"
+/>
+ 
+<img
+width="48%"
+src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=xpedrotx&layout=compact&theme=github_dark&hide_border=true&langs_count=8"
+alt="Most Used Languages"
+/>
+
+<br><br>
+
+<img
+width="65%"
+src="https://streak-stats.demolab.com?user=xpedrotx&theme=github-dark-blue&hide_border=true"
+alt="GitHub Streak"
+/>
+
+</div>
+
+🐍 Contributions
+
+<div align="center">
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/xpedrotx/xpedrotx/output/github-contribution-grid-snake-dark.svg"
+  >
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/xpedrotx/xpedrotx/output/github-contribution-grid-snake.svg"
+  >
+  <img
+    alt="GitHub contribution grid snake animation"
+    src="https://raw.githubusercontent.com/xpedrotx/xpedrotx/output/github-contribution-grid-snake.svg"
+  >
+</picture>
+
+</div>
+
+<div align="center">
+
+Code. Learn. Build. Repeat.
+
+<br>
+
+<a href="https://pedrotx.com.br">
+  <img src="https://img.shields.io/badge/Portfolio-181717?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio">
+</a>
+<a href="https://www.linkedin.com/in/pedrohltx/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="mailto:contato@pedrotxdev.com">
+  <img src="https://img.shields.io/badge/Email-181717?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+</a>
+
+</div>
